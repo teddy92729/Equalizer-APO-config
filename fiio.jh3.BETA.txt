@@ -13,4 +13,4 @@ Filter: ON PK Fc 10000 Hz Gain -1 dB Q 0.5
 Filter: ON PK Fc 16000 Hz Gain -3 dB Q 0.5
 Filter: ON HP Fc 30 Hz
 Filter: ON LP Fc 17000 Hz
-Preamp: -16 dB
+Preamp: -17 dB
