@@ -1,0 +1,20 @@
+Copy: BL=L BR=R
+Channel: BL BR
+Filter: ON BP Fc 55 Hz Q 2
+VSTPlugin: Library RoughRider2.dll ChunkData "VkMyIVEAAAA8Um9vdD48MD4wLjQ0ODwvMD48MT4wLjU1OTwvMT48Mj4wLjc3ODwvMj48Mz4wLjMzOTwvMz48ND4wLjE2NzwvND48NT4xPC81PjwvUm9vdD4A"
+Filter: ON PK Fc 55 Hz Gain 2.5 dB Q 0.6
+Filter: ON PK Fc 80 Hz Gain 0.8 dB Q 9
+Filter: ON PK Fc 100 Hz Gain 1.5 dB Q 9
+Filter: ON PK Fc 160 Hz Gain 1.5 dB Q 10
+Filter: ON PK Fc 300 Hz Gain -2 dB Q 8.8
+Preamp: -8 dB
+Copy: L=L+BL R=R+BR
+Channel: L R
+Filter: ON HS Fc 300 Hz Gain -2 dB
+Filter: ON PK Fc 1000 Hz Gain 2 dB Q 0.5
+Filter: ON HS Fc 2000 Hz Gain -1 dB
+Filter: ON PK Fc 4000 Hz Gain 1.5 dB Q 6
+Filter: ON PK Fc 5000 Hz Gain 1.5 dB Q 1.5
+Filter: ON HS Fc 8000 Hz Gain -2 dB
+Preamp: -3 dB
+Filter: ON HP Fc 27 Hz
